@@ -7,7 +7,7 @@ This is an enhanced and customizable version of the default Splunk webhook integ
 **1- Comprehensive Data Transmission:**
 - Unlike the default Splunk webhook, this app sends all rows of the search results, not just the first one.
   
-**1- Fail-Safe Webhook Delivery:**
+**2- Fail-Safe Webhook Delivery:**
 - If the webhook server is down, this app caches the results locally and retries sending them when the server comes back online.
 Customizable Filtering:
 

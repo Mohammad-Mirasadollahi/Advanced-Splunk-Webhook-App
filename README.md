@@ -17,7 +17,7 @@ The directory where Splunk stores dispatch data. Update this to match your Splun
 Default: `http://10.1.1.1:8001`
 The URL of the webhook where the results will be sent. Replace this with your specific webhook endpoint.
 
-> **Note:** Please update the `webhook_full_result.py` file in the path `...\TA_Custom_Webhook\TA_Custom_Webhook\bin` according to your specific requirements.
+> **Note:** Please update the `webhook_full_result.py` file in the path `...\TA_Custom_Webhook\bin` according to your specific requirements.
 
 ## Why Use This App? ##
 The default Splunk webhook is limited in its ability to handle large result sets and retry failed transmissions. This advanced solution bridges those gaps, making it more robust and reliable for enterprise use cases.

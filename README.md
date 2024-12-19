@@ -1,7 +1,7 @@
 # Advanced Splunk Webhook App
 This is an enhanced and customizable version of the default Splunk webhook integration. It solves a major limitation in the standard Splunk webhook, which only sent the first row of search results. With this improved app, all search results are sent to the webhook, ensuring complete data delivery.
 
-> **Note:** These scripts were developed with the help of ChatGPT
+> **Note:** These scripts were developed with the help of ChatGPT.
 
 # Key Features:
 **1- Comprehensive Data Transmission:**

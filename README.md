@@ -14,7 +14,7 @@ Customizable Filtering:
 Default: `/opt/splunk/var/run/splunk/dispatch`
 The directory where Splunk stores dispatch data. Update this to match your Splunk installation path if it differs.
 - **WEBHOOK_URL:**\
-Default: `https://your-webhook-url-here`
+Default: `http://10.1.1.1:8001`
 The URL of the webhook where the results will be sent. Replace this with your specific webhook endpoint.
 
 > **Note:** Please update the `webhook_full_result.py` file in the path `...\TA_Custom_Webhook\TA_Custom_Webhook\bin` according to your specific requirements.
